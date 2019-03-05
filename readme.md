@@ -11,14 +11,35 @@ npm install @strong-roots-capital/record-context
 ## Use
 
 ``` typescript
-import recordContext from '@strong-roots-capital/record-context'
-// TODO: describe usage
+import RecordContext from '@strong-roots-capital/record-context'
+```
+
+The `RecordContext` interface is defined as
+
+``` typescript
+/**
+ * Context of a timeseries `Record`.
+ */
+export default interface RecordContext {
+    /**
+     * Timeframe of `Record` denominated in minutes.
+     */
+    timeframe: number
+    /**
+     * Concatenation of both asset-names available for trade.
+     *
+     * @remarks
+     * The second asset-name in `tradepair` will be the same units in
+     * which associated `Record`s prices are valued.
+     */
+    tradepair: string
+    /**
+     * Name of exchange from which `Record` was collected.
+     */
+    exchange: string
+}
 ```
 
 ## Related
 
-TODO
-
-## Acknowledgments
-
-TODO
+- [timeseries-record](https://github.com/strong-roots-capital/timeseries-record)
