@@ -26,7 +26,7 @@ Context of a timeseries `Record`.
 
 **● exchange**: *`string`*
 
-*Defined in [record-context.ts:26](https://github.com/strong-roots-capital/record-context/blob/a08c017/src/record-context.ts#L26)*
+*Defined in [record-context.ts:26](https://github.com/strong-roots-capital/record-context/blob/e68350a/src/record-context.ts#L26)*
 
 Name of exchange from which `Record` was collected.
 
@@ -37,7 +37,7 @@ ___
 
 **● timeframe**: *`number`*
 
-*Defined in [record-context.ts:14](https://github.com/strong-roots-capital/record-context/blob/a08c017/src/record-context.ts#L14)*
+*Defined in [record-context.ts:14](https://github.com/strong-roots-capital/record-context/blob/e68350a/src/record-context.ts#L14)*
 
 Timeframe of `Record` denominated in minutes.
 
@@ -48,7 +48,7 @@ ___
 
 **● tradepair**: *`string`*
 
-*Defined in [record-context.ts:22](https://github.com/strong-roots-capital/record-context/blob/a08c017/src/record-context.ts#L22)*
+*Defined in [record-context.ts:22](https://github.com/strong-roots-capital/record-context/blob/e68350a/src/record-context.ts#L22)*
 
 Concatenation of both asset-names available for trade.
 
