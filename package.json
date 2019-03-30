@@ -1,6 +1,6 @@
 {
   "name": "@strong-roots-capital/record-context",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interface definition of the context of a timeseries-record",
   "main": "dist/record-context.js",
   "types": "dist/record-context.d.ts",
